@@ -1,4 +1,89 @@
+// 要從大小到小 不然不會有作用
+
+// font-family: 'Noto Sans TC', sans-serif; 中文
+// font-family: 'Roboto', sans-serif; 英文
+
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  font-family: 'Noto Sans TC', sans-serif; 
+  background: $primary;
+  font-size: 20px;
+  padding: 12px 0;
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.logo img{
+  width: 80px;
+  height: 49px;
+}
+
+@media(max-width: 992px){
+  // 平板
+  .container{
+    margin: 0 36px;
+  }
+
+  .header{
+    ul{
+      // flex-wrap: wrap;
+      width: 65%;
+    }
+  }
+}
+@media(max-width: 767px){
+  // 手機
+  .container{
+    margin: 0 14px;
+  }
+
+  .header{
+    padding-bottom: 0;
+
+    .container{
+      margin: 0;
+    }
+    .navbar{
+      display: block;
+    }
+   
+    ul{
+      width: 100%;
+      flex-wrap: wrap;
+      li{
+        width: 50%;
+        text-align: center;
+        padding: 12px 0;
+        border: 1px solid white;
+      }
+      li:nth-child(1), li:nth-child(3){
+        border-left: 0;
+        border-right: 0;
+      }
+      li:nth-child(2), li:nth-child(4){
+        border-right: 0;
+      }
+    }
+  }
+  .logo{
+    padding-bottom: 16px;
+    padding-left: 14px;
+  }
+ 
 }
