@@ -10,7 +10,6 @@
   h2{
     color:$darkRed;
     font-size: 64px;
-    line-height: 96px;
     font-weight: bold;
     margin-bottom: 4px;
   }
@@ -18,7 +17,6 @@
   p{
     color:$darkRed;
     font-size: 36px;
-    line-height: 54px;
     span{
       font-family: 'Roboto', sans-serif;
     }
@@ -29,7 +27,6 @@
     background: $primary;
     font-size: 20px;
     color: white;
-    line-height: 29px;
     padding: 6px 12px;
   }
 }
@@ -41,7 +38,6 @@
   h2{
     text-align: center;
     font-weight: bold;
-    line-height: 72px;
     color: $darkRed;
     font-size: 48px;
     margin-bottom: 24px;
@@ -59,10 +55,6 @@
       font-weight: bold;
       font-size: 24px;
       color: $darkRed;
-      line-height: 36px;
-    }
-    p{
-      line-height: 24px;
     }
     img{
       width: 84px;
@@ -72,7 +64,6 @@
 .classic{
   padding: 80px 0;
   font-size: 48px;
-  line-height: 72px;
   font-weight: bold;
   ul{
     font-family: 'Roboto', sans-serif;
@@ -100,7 +91,6 @@
   background-size: cover;
   padding: 80px 0;
   font-size: 48px;
-  line-height: 72px;
   font-weight: bold;
   text-align: center;
   ul{
@@ -130,7 +120,6 @@
   h2{
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 48px;
-    line-height: 72px;
     text-align: center;
     color: $darkRed;
     font-weight: bold;
@@ -151,9 +140,6 @@
       margin-bottom: 8px;
     }
     
-    h3, p{
-      line-height: 24px;
-    }
     li:nth-child(2),li:nth-child(3), p{
       font-family: 'Noto Sans TC', sans-serif;
     }
@@ -166,7 +152,6 @@
     margin-top: 72px;
     color:#707070;
     font-size: 14px;
-    line-height: 21px;
   }
 }
 
@@ -180,14 +165,12 @@
   h2{
     text-align: center;
     font-size: 48px;
-    line-height: 72px;
     font-weight: bold;
     color: $darkRed;
     margin-bottom: 48px;
   }
   p{
     font-size: 20px;
-    line-height: 30px;
   }
   form{
     margin-top: 24px;
@@ -202,7 +185,6 @@
       background: $primary;
       color: white;
       font-size: 16px;
-      line-height: 24px;
       border: 0;
       cursor: pointer;
     }
@@ -210,7 +192,6 @@
   label{
    display: block;
    margin-bottom: 8px;
-   line-height: 24px;
   }
   input, textarea{
     margin-bottom: 16px;
@@ -314,7 +295,6 @@
   }
   p{
     font-size: 16px;
-    line-height: 24px;
   }
 
   form{
@@ -334,11 +314,9 @@
 
     p{
       font-size: 16px;
-      line-height: 24px;
     }
     h2{
       font-size: 24px;
-      line-height: 36px;
       margin-bottom: 8px;
     }
   }
@@ -346,7 +324,6 @@
   .aboutUs{
     h2{
       font-size: 24px;
-      line-height: 36px;
     }
     ul{
       flex-wrap: wrap;
@@ -376,7 +353,6 @@
     padding: 40px 0;
     h2{
       font-size: 24px;
-      line-height: 36px;
       margin-bottom: 24px;
     }
   }
@@ -385,7 +361,6 @@
     padding: 40px 0;
     h2{
       font-size: 24px;
-      line-height: 36px;
       margin-bottom: 24px;
     }
     ul{
@@ -406,12 +381,10 @@
   padding: 40px 0;
   h2{
     font-size: 24px;
-    line-height: 36px;
     margin-bottom: 24px;
   }
   p{
     font-size: 20px;
-    line-height: 30px;
   }
   form{
     button{
