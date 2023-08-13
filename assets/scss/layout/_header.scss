@@ -4,12 +4,13 @@
 // font-family: 'Roboto', sans-serif; 英文
 
 .container{
-  max-width: 1296px;
+  // 1296 + 24
+  max-width: 1320px;
+  padding: 0 12px;
   margin: 0 auto;
 }
 
 .header{
-  font-family: 'Noto Sans TC', sans-serif; 
   background: $primary;
   font-size: 20px;
   padding: 12px 0;
@@ -23,6 +24,8 @@
     justify-content: space-between;
     width: 35%;
     a{
+      // 占滿才好點擊
+      width: 100%;
       text-decoration: none;
       color: white;
     }
@@ -37,7 +40,8 @@
 @media(max-width: 992px){
   // 平板
   .container{
-    margin: 0 36px;
+    // 696 + 24
+    max-width: 720px;
   }
 
   .header{
@@ -50,7 +54,9 @@
 @media(max-width: 767px){
   // 手機
   .container{
-    margin: 0 14px;
+    // 348 + 24 372
+    max-width: 372px;
+    // margin: 0 14px;
   }
 
   .header{
@@ -87,3 +93,5 @@
   }
  
 }
+
+

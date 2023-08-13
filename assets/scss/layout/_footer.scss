@@ -10,7 +10,6 @@
     width: 48px;
   }
   .topInfo{
-    font-family: 'Noto Sans TC', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +25,6 @@
     }
   }
   .info{
-    font-family: 'Roboto', sans-serif;
     margin-top: 24px;
     border-bottom: 1px solid white;
     padding-bottom: 32px;
@@ -41,7 +39,6 @@
     }
     span{
       font-size: 36px;
-      line-height: 54px;
     }
   }
   .law{
@@ -50,14 +47,12 @@
     display: flex;
     justify-content: space-between;
     ul{
-      font-family: 'Noto Sans TC', sans-serif;
       display: flex;
       justify-content: space-between;
       width: 12%;
       font-size: 14px;
     }
     p{
-      font-family: 'Roboto', sans-serif;
       line-height: 21px;
     }
   }
@@ -117,7 +112,6 @@
       span{
         font-size: 16px;
       }
-
       li span:nth-child(1),  li span:nth-child(3){
         margin-right: 8px;
       }

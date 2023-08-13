@@ -2,7 +2,6 @@ a{
     text-decoration: none;
 }
 .category{
-    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
     li{
@@ -48,16 +47,13 @@ a{
     h2{
         font-size: 42px;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
     }
     h3{
         font-size: 32px;
         text-align: center;
         margin-bottom: 32px;
-        font-family: 'Noto Sans TC', sans-serif;
     }
     ul{
-        font-family: 'Roboto', sans-serif;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -100,7 +96,6 @@ a{
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
     li{
         border: 1px solid #555555;
     }
@@ -120,7 +115,6 @@ a{
     }
     li:nth-child(1) a, li:nth-child(7) a {
         padding: 12px;
-        font-family: 'Noto Sans TC', sans-serif;
     }
     a{
         color: #555555;
