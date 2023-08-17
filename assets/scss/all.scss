@@ -1,9 +1,9 @@
-@import './variables';
-@import './reset';
-@import './base';
+@import './base/variables';
+@import './base/reset';
+@import './base/base';
+
 @import './layout/header.scss';
 @import './layout/footer.scss';
-
 
 @import './pages/index.scss';
 @import './pages/products.scss';
